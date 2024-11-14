@@ -1,0 +1,261 @@
+/*- CONTACT US -*/
+/*----------------------------------*/
+
+#con1 {
+    background-image: url(imgs/aidan.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+#navbarcon {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+
+button {
+    background-color: #10c9c3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  #Header1 {
+    font-size: 42px;
+    font-family: 'Monserrat';
+    text-align: left;
+
+  }
+#Sub2 {
+    font-size: 20px;
+    font-family: 'Nunito+Sans';
+    text-align: left;
+
+}
+
+/*- ABOUT US -*/
+/*----------------------------------*/
+
+#bd1 {
+  font-family: 'Monserrat';
+  font-size: 30px;
+}
+
+.bd2 {
+  font-size: 15px;
+  font-weight: 1px;
+}
+
+#styl1 {
+  text-align: center;
+  font-size: 'Nunito+Sans';
+  padding: 40px 0px 40px 0px;
+}
+
+.sec1{
+  text-align: center;
+  padding: 20%;
+}
+
+/*- PROFESSIONAL SKILLS -*/
+/*----------------------------------*/
+
+#con4 {
+  background-color: #F5F5F5;
+  padding-left: 50px;
+}
+
+.prog1 {
+  font-size: 25px;
+  font-weight: 490;
+}
+
+.prog2 {
+  font-size: 13px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.progress {
+  border: 6px solid #F5F5F5;
+  width: 700px;
+  height: 10px;
+}
+
+.sec3 {
+height: 450px;
+width: 100px;
+object-fit:cover;
+}
+
+/*- ICON BLUE BAR SECTION -*/
+/*----------------------------------*/
+
+#con5 {
+  background-color: #10C9C3;
+}
+
+.icon {
+  padding: 2px 5px 5px 0px;
+}
+
+.sec4 {
+  padding: 50px 0px 50px 0px;
+  color: #F5F5F5;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*- GRID ROWS -*/
+/*----------------------------------*/
+
+.uno1 {
+  max-width: 100%;
+  height: auto;
+}
+
+.img6 {
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+    background-color: black;
+}
+
+.img6:hover {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    transition: 0.3s ease;
+}
+
+.img1 {
+background: url('imgs/Package\ Design\ Lemon\ Tea\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+.img2 {
+background: url('imgs/Package\ Design\ Vanilla\ Powder\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+.img3 {
+background: url('imgs/Package\ Design\ Coconut\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+.img4 {
+background: url('imgs/Package\ Design\ Komaso\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+.img5 {
+background: url('imgs/Package\ Design\ Spices\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+.img6 {
+background: url('imgs/Package\ Design\ Salad\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+.img7 {
+background: url('imgs/Package\ Design\ Olive\ Oil\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+.img8 {
+background: url('imgs/Package\ Design\ Seaweed\ -\ fabian\ krotzer\ Frame.png') center/cover no-repeat;
+}
+
+/*- SERVICES -*/
+/*----------------------------------*/
+
+#services {
+    
+    h1 {
+        margin-bottom: 75px;
+    }
+
+    h5 {
+        text-transform: uppercase;
+    }
+
+    .col-lg-3 {
+        margin-bottom: 75px;
+    }
+}
+
+/*- BLUE ROW 2 -*/
+/*----------------------------------*/
+
+#testimonials {
+    height: 45vh;
+    display: flex;
+    background-color: #10C9C3;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+
+
+        p.quote {
+            font-size: 20px;
+            color: white;
+        }
+    }
+}
+
+/*- LOGOS -*/
+/*----------------------------------*/
+
+div.container-fluid.logos {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 70px;
+}
+
+/*- CONTACT -*/
+/*----------------------------------*/
+
+#contact {
+    background: #F5F5F5;
+
+    h1 {
+        margin-bottom: 25px;
+    }
+    p {
+        margin-bottom: 25px;
+    }
+}
+
+#contact .row {
+    display: flex;
+    justify-content: center;
+}
+
+/*- FOOTER DETAILS -*/
+/*----------------------------------*/
+
+footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #141414;
+}
+
+footer .text {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .text p.company {
+    color: white;
+}
+footer .text a,
+footer .text p.copyright {
+    text-decoration: none;
+    color: white;
+}
+
+footer .text a:hover {
+    color: white;
+    text-decoration: underline;
+}
